@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "r2pipe", "r2pipe\r2pipe.csproj", "{D5B3F257-E13E-42B5-A77E-AA0F809311FD}"
 EndProject
@@ -9,6 +9,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalExample", "LocalExample\LocalExample.csproj", "{AAD0715E-0E37-4904-B54C-61DBC24BCD3A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "r2pipe-portable", "r2pipe-portable\r2pipe-portable.csproj", "{73640705-0261-4565-9170-8D413E881B41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "r2pipe-netcore", "r2pipeCore\r2pipe-netcore.csproj", "{ED534E1E-F409-4372-B507-58C32FC3921E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,8 +34,15 @@ Global
 		{73640705-0261-4565-9170-8D413E881B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73640705-0261-4565-9170-8D413E881B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73640705-0261-4565-9170-8D413E881B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED534E1E-F409-4372-B507-58C32FC3921E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED534E1E-F409-4372-B507-58C32FC3921E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED534E1E-F409-4372-B507-58C32FC3921E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED534E1E-F409-4372-B507-58C32FC3921E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9276F0E-5B58-4097-AB73-735757973C67}
 	EndGlobalSection
 EndGlobal
