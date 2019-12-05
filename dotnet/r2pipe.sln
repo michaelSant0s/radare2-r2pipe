@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "r2pipe-portable", "r2pipe-p
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "r2pipe", "r2pipe-netcore\r2pipe.csproj", "{766404BB-C782-4CA6-94E2-617DD3BAB52C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalExampleCore", "LocalExampleCore\LocalExampleCore.csproj", "{0EBACE7D-4C6C-49A4-8F49-60948652AF37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{766404BB-C782-4CA6-94E2-617DD3BAB52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{766404BB-C782-4CA6-94E2-617DD3BAB52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{766404BB-C782-4CA6-94E2-617DD3BAB52C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EBACE7D-4C6C-49A4-8F49-60948652AF37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EBACE7D-4C6C-49A4-8F49-60948652AF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EBACE7D-4C6C-49A4-8F49-60948652AF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EBACE7D-4C6C-49A4-8F49-60948652AF37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
