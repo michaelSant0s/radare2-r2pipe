@@ -33,8 +33,9 @@ namespace r2pipe
         /// </summary>
         /// <param name="file">The file.</param>
         public R2Pipe()
-		: this("-", "radare2") {
-	}
+        : this("-", "radare2")
+        {
+        }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="R2Pipe"/> class.
@@ -97,7 +98,7 @@ namespace r2pipe
             var sb = new StringBuilder();
             r2Process.StandardInput.WriteLine(command);
             r2Process.StandardInput.Flush();
-            
+
             while (true)
             {
                 char buffer = (char)r2Process.StandardOutput.Read();

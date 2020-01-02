@@ -2,6 +2,7 @@ using System;
 using System.Runtime.InteropServices;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System.Text.Json;
 
 namespace r2pipe
 {
@@ -38,6 +39,14 @@ namespace r2pipe
         {
             return r_core_cmd_str(this.core, command);
         }
+        // public string RunCommandJson(string command)
+        // {
+        //     string result = r_core_cmd_str(this.core, command);
+        //     var json = JsonSerializer.Deserialize<object>(result);
+
+        // }
+
+
 
         /// <summary>
         /// Executes given RunCommand in radare2 asynchronously

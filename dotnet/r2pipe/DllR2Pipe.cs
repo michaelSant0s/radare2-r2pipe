@@ -40,6 +40,18 @@ namespace r2pipe
             return r_core_cmd_str(this.core, command);
         }
 
+        /// <summary>
+        /// Executes given RunCommand in radare2
+        /// </summary>
+        /// <param name="command">The command to execute.</param>
+        /// <returns>
+        /// Returns a JsonDocument
+        /// </returns>
+        public JsonDocument RunCommandJson(string command)
+        {
+            return JsonDocument.Parse(r_core_cmd_str(this.core, command));
+        }
+
 #if !OLDNETFX
         /// <summary>
         /// Executes given RunCommand in radare2 asynchronously
